@@ -1,0 +1,48 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{The Pinksy-Rinzel Model and Parameter Estimation}
+
+\date{\today}
+
+\author{Matthias Heinkenschloss, Arjun Sethi-Olowin}
+\institute{Department of Computational and Applied Mathematics and Operations Research\\Rice University, Houston, Texas}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Table of contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents%[hideallsubsections]
+\end{frame}
+
+\include{Latex/prmodel_slides.tex}
+
+\include{Latex/2C_numerical_sim_slides.tex}
+
+\include{Latex/2C_pyomo_param-est_slides.tex}
+
+\include{Latex/conclusion_slides.tex}
+
+\appendix
+
+\begin{frame}{References}
+
+    references here
+    
+\end{frame}
+
+\end{document}
